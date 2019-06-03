@@ -1,0 +1,28 @@
+﻿<Window x:Class="_2D.windows.Window05"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_2D.windows"
+        mc:Ignorable="d"
+        Title="Window05" Height="450" Width="800">
+    <Canvas>
+        <Rectangle Canvas.Left="90" Canvas.Top="30" 
+                   Width="150" Height="90" Fill="Blue"/>
+
+        <Line X1="90" Y1="30" X2="110" Y2="40" Stroke="Green" StrokeThickness="5"/>
+        <Line X1="90" Y1="120" X2="110" Y2="130" Stroke="Green" StrokeThickness="5"/>
+        <Line X1="240" Y1="30" X2="260" Y2="40" Stroke="Green" StrokeThickness="5"/>
+        <Line X1="240" Y1="120" X2="260" Y2="130" Stroke="Green" StrokeThickness="5"/>
+
+        <Rectangle Canvas.Left="100" Canvas.Top="40" 
+                   Width="150" Height="90" Fill="Yellow"/>
+
+        <Ellipse Canvas.Left="280" Canvas.Top="75" Width="100" Height="50" Fill="Red"/>
+        <Line X1="380" Y1="55" X2="380" Y2="100" Stroke="Black" StrokeThickness="5"/>
+        <Line X1="280" Y1="55" X2="280" Y2="100" Stroke="Black" StrokeThickness="5"/>
+
+        <Ellipse Canvas.Left="280" Canvas.Top="30" Width="100" Height="50" Fill="Yellow"/>
+
+    </Canvas>
+</Window>

@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <RootNamespace>_2D</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="windows\Window01.xaml" />
+    <None Remove="windows\Window02.xaml" />
+    <None Remove="windows\Window03.xaml" />
+    <None Remove="windows\Window04.xaml" />
+    <None Remove="windows\Window05.xaml" />
+    <None Remove="windows\Window06.xaml" />
+  </ItemGroup>
+
+</Project>
